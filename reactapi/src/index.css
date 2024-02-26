@@ -1,0 +1,56 @@
+:root {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #333; /* Change text color */
+  background-color: #f0f0f0; /* Change background color */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 600; /* Increase font weight */
+  color: #ff7f50; /* Change link color */
+  text-decoration: none;
+  border-bottom: 1px solid #ccc; /* Add line below each link */
+}
+a:hover {
+  color: #ff6347; /* Change link color on hover */
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3em; /* Decrease font size */
+  line-height: 1.2;
+}
+
+button {
+  border-radius: 5px; /* Decrease border radius */
+  border: none; /* Remove border */
+  padding: 0.5em 1em; /* Adjust padding */
+  font-size: 1.1em; /* Increase font size */
+  font-weight: 600;
+  font-family: inherit;
+  background-color: #4682b4; /* Change button color */
+  cursor: pointer;
+  transition: background-color 0.25s; /* Adjust transition */
+}
+button:hover {
+  background-color: #5f9ea0; /* Change button color on hover */
+}
+button:focus,
+button:focus-visible {
+  outline: none; /* Remove focus outline */
+}
